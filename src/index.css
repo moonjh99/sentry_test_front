@@ -1,0 +1,45 @@
+body {
+  font-family: Inter, system-ui;
+  background: #f4f6f8;
+}
+
+.card {
+  background: white;
+  width: 360px;
+  padding: 28px;
+  margin: 120px auto;
+  border-radius: 14px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 14px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+button.danger {
+  background: #e53935;
+  color: white;
+}
+
+button.warning {
+  background: #fb8c00;
+  color: white;
+}
+
+button.link {
+  background: none;
+  color: #1976d2;
+}
